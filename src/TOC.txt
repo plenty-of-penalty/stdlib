@@ -1,0 +1,26 @@
+DataStructure
+Tree
+	性质
+Graph
+	最大流
+	最小费用最大流
+Math
+	分治NTT
+	多项式全家桶
+String
+	后缀树组@xry
+	后缀自动机@xry
+	后缀自动机@wh
+	回文自动机@wh
+	Runs
+Geometry
+	计算几何全家桶
+DP
+	斜率优化
+Misc
+	模拟退火
+	线性递推（BM）
+Tricks
+	随机数
+	在线浮点数求和
+Appendix

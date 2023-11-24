@@ -1,3 +1,11 @@
+/tmp
+/src/tmp
+/dist
+/src/main.pdf
+*.exe
+*.in
+*.out
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

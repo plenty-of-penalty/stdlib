@@ -1,0 +1,11 @@
+如果用于本机对拍，考虑用毫秒级的时间函数而非 \texttt{clock()}。
+\begin{minted}{cpp}
+long long seed=chrono::steady_clock::now() .time_since_epoch().count();
+mt19937 rng(seed);
+mt19937_64 rng64(seed);
+\end{minted}
+可用 \texttt{uniform\_int\_distribution} 生成范围随机数。
+\begin{minted}{cpp}
+#define rand(l, r) uniform_int_distribution<int>(l, r)(rng)
+#define randll(l, r) uniform_int_distribution<long long>(l, r)(rng64)
+\end{minted}
